@@ -1,0 +1,158 @@
+2025-05-27 11:22:48,864 - car_cli.database - DEBUG - Creating database engine
+2025-05-27 11:22:48,874 - car_cli.database - DEBUG - Database engine created successfully
+2025-05-27 11:22:48,877 - car_cli.database - INFO - Starting database initialization
+2025-05-27 11:22:48,879 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-27 11:22:48,880 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("cars")
+2025-05-27 11:22:48,881 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-05-27 11:22:48,886 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-05-27 11:22:48,886 - car_cli.database - INFO - Database tables created successfully
+2025-05-27 11:22:48,886 - __main__ - INFO - Adding sample cars to the database
+2025-05-27 11:22:48,888 - __main__ - INFO - Committing changes to the database
+2025-05-27 11:22:48,889 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-27 11:22:48,894 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:22:48,894 - sqlalchemy.engine.Engine - INFO - [generated in 0.00014s (insertmanyvalues) 1/10 (ordered; batch not supported)] ('Toyota', 'Camry', 2022, 'Blue')
+2025-05-27 11:22:48,895 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:22:48,895 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 2/10 (ordered; batch not supported)] ('Honda', 'Civic', 2021, 'Red')
+2025-05-27 11:22:48,896 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:22:48,896 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 3/10 (ordered; batch not supported)] ('Ford', 'F-150', 2020, 'Black')
+2025-05-27 11:22:48,896 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:22:48,896 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 4/10 (ordered; batch not supported)] ('Tesla', 'Model S', 2023, 'White')
+2025-05-27 11:22:48,897 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:22:48,897 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 5/10 (ordered; batch not supported)] ('Byd', 'Seal', 2025, 'White')
+2025-05-27 11:22:48,898 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:22:48,898 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 6/10 (ordered; batch not supported)] ('Hyundai', 'Tucson', 2021, 'Red')
+2025-05-27 11:22:48,899 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:22:48,899 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 7/10 (ordered; batch not supported)] ('Nissan', 'X-Trail', 2019, 'Sky Blue')
+2025-05-27 11:22:48,900 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:22:48,901 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 8/10 (ordered; batch not supported)] ('Mercedes', 'C-Class', 2024, 'Blue')
+2025-05-27 11:22:48,902 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:22:48,903 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 9/10 (ordered; batch not supported)] ('Honda', 'Civic', 2019, 'Purple')
+2025-05-27 11:22:48,903 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:22:48,903 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 10/10 (ordered; batch not supported)] ('Ferrari', '296 Gtb', 2023, 'Grey')
+2025-05-27 11:22:48,904 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-05-27 11:22:48,916 - __main__ - INFO - Database seeded successfully
+2025-05-27 11:23:23,566 - car_cli.database - DEBUG - Creating database engine
+2025-05-27 11:23:23,571 - car_cli.database - DEBUG - Database engine created successfully
+2025-05-27 11:23:23,573 - car_cli.database - INFO - Starting database initialization
+2025-05-27 11:23:23,576 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-27 11:23:23,578 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("cars")
+2025-05-27 11:23:23,578 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-05-27 11:23:23,579 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-05-27 11:23:23,579 - car_cli.database - INFO - Database tables created successfully
+2025-05-27 11:23:23,579 - __main__ - INFO - Adding sample cars to the database
+2025-05-27 11:23:23,581 - __main__ - INFO - Committing changes to the database
+2025-05-27 11:23:23,581 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-27 11:23:23,583 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:23:23,583 - sqlalchemy.engine.Engine - INFO - [generated in 0.00017s (insertmanyvalues) 1/10 (ordered; batch not supported)] ('Toyota', 'Camry', 2022, 'Blue')
+2025-05-27 11:23:23,597 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:23:23,597 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 2/10 (ordered; batch not supported)] ('Honda', 'Civic', 2021, 'Red')
+2025-05-27 11:23:23,597 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:23:23,597 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 3/10 (ordered; batch not supported)] ('Ford', 'F-150', 2020, 'Black')
+2025-05-27 11:23:23,597 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:23:23,597 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 4/10 (ordered; batch not supported)] ('Tesla', 'Model S', 2023, 'White')
+2025-05-27 11:23:23,597 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:23:23,598 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 5/10 (ordered; batch not supported)] ('Byd', 'Seal', 2025, 'White')
+2025-05-27 11:23:23,598 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:23:23,598 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 6/10 (ordered; batch not supported)] ('Hyundai', 'Tucson', 2021, 'Red')
+2025-05-27 11:23:23,598 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:23:23,599 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 7/10 (ordered; batch not supported)] ('Nissan', 'X-Trail', 2019, 'Sky Blue')
+2025-05-27 11:23:23,599 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:23:23,599 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 8/10 (ordered; batch not supported)] ('Mercedes', 'C-Class', 2024, 'Blue')
+2025-05-27 11:23:23,599 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:23:23,599 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 9/10 (ordered; batch not supported)] ('Honda', 'Civic', 2019, 'Purple')
+2025-05-27 11:23:23,599 - sqlalchemy.engine.Engine - INFO - INSERT INTO cars (make, model, year, color) VALUES (?, ?, ?, ?) RETURNING id
+2025-05-27 11:23:23,599 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 10/10 (ordered; batch not supported)] ('Ferrari', '296 Gtb', 2023, 'Grey')
+2025-05-27 11:23:23,600 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-05-27 11:23:23,610 - __main__ - INFO - Database seeded successfully
+2025-05-27 11:25:57,613 - car_cli.database - DEBUG - Creating database engine
+2025-05-27 11:25:57,621 - car_cli.database - DEBUG - Database engine created successfully
+2025-05-27 11:25:57,624 - __main__ - DEBUG - Calling init_db
+2025-05-27 11:25:57,624 - car_cli.database - INFO - Starting database initialization
+2025-05-27 11:25:57,625 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-27 11:25:57,625 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("cars")
+2025-05-27 11:25:57,625 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-05-27 11:25:57,628 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-05-27 11:25:57,628 - car_cli.database - INFO - Database tables created successfully
+2025-05-27 11:25:57,628 - __main__ - DEBUG - init_db completed
+2025-05-27 11:25:57,630 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-27 11:25:57,635 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT cars.id AS cars_id, cars.make AS cars_make, cars.model AS cars_model, cars.year AS cars_year, cars.color AS cars_color 
+FROM cars) AS anon_1
+2025-05-27 11:25:57,635 - sqlalchemy.engine.Engine - INFO - [generated in 0.00057s] ()
+2025-05-27 11:25:57,636 - __main__ - INFO - Database already contains 60 cars, skipping seeding
+2025-05-27 11:25:57,636 - __main__ - INFO - Fetching all cars from the database
+2025-05-27 11:25:57,637 - sqlalchemy.engine.Engine - INFO - SELECT cars.id, cars.make, cars.model, cars.year, cars.color 
+FROM cars
+2025-05-27 11:25:57,637 - sqlalchemy.engine.Engine - INFO - [generated in 0.00023s] ()
+2025-05-27 11:25:57,639 - __main__ - INFO - Found 60 cars
+2025-05-27 11:25:57,640 - __main__ - DEBUG - Closing database session
+2025-05-27 11:25:57,640 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-27 11:26:42,730 - car_cli.database - DEBUG - Creating database engine
+2025-05-27 11:26:42,741 - car_cli.database - DEBUG - Database engine created successfully
+2025-05-27 11:26:42,749 - __main__ - DEBUG - Calling init_db
+2025-05-27 11:26:42,749 - car_cli.database - INFO - Starting database initialization
+2025-05-27 11:26:42,751 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-27 11:26:42,752 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("cars")
+2025-05-27 11:26:42,753 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-05-27 11:26:42,754 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-05-27 11:26:42,754 - car_cli.database - INFO - Database tables created successfully
+2025-05-27 11:26:42,754 - __main__ - DEBUG - init_db completed
+2025-05-27 11:26:42,758 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-27 11:26:42,765 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT cars.id AS cars_id, cars.make AS cars_make, cars.model AS cars_model, cars.year AS cars_year, cars.color AS cars_color 
+FROM cars) AS anon_1
+2025-05-27 11:26:42,766 - sqlalchemy.engine.Engine - INFO - [generated in 0.00039s] ()
+2025-05-27 11:26:42,766 - __main__ - INFO - Database already contains 60 cars, skipping seeding
+2025-05-27 11:26:42,767 - __main__ - INFO - Fetching all cars from the database
+2025-05-27 11:26:42,768 - sqlalchemy.engine.Engine - INFO - SELECT cars.id, cars.make, cars.model, cars.year, cars.color 
+FROM cars
+2025-05-27 11:26:42,768 - sqlalchemy.engine.Engine - INFO - [generated in 0.00045s] ()
+2025-05-27 11:26:42,769 - __main__ - INFO - Found 60 cars
+2025-05-27 11:26:42,771 - __main__ - DEBUG - Closing database session
+2025-05-27 11:26:42,771 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-27 11:27:53,531 - car_cli.database - DEBUG - Creating database engine
+2025-05-27 11:27:53,543 - car_cli.database - DEBUG - Database engine created successfully
+2025-05-27 11:27:53,548 - __main__ - DEBUG - Calling init_db
+2025-05-27 11:27:53,548 - car_cli.database - INFO - Starting database initialization
+2025-05-27 11:27:53,551 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-27 11:27:53,552 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("cars")
+2025-05-27 11:27:53,552 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-05-27 11:27:53,566 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-05-27 11:27:53,567 - car_cli.database - INFO - Database tables created successfully
+2025-05-27 11:27:53,567 - __main__ - DEBUG - init_db completed
+2025-05-27 11:27:53,573 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-27 11:27:53,580 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT cars.id AS cars_id, cars.make AS cars_make, cars.model AS cars_model, cars.year AS cars_year, cars.color AS cars_color 
+FROM cars) AS anon_1
+2025-05-27 11:27:53,580 - sqlalchemy.engine.Engine - INFO - [generated in 0.00056s] ()
+2025-05-27 11:27:53,583 - __main__ - INFO - Database already contains 60 cars, skipping seeding
+2025-05-27 11:27:53,584 - __main__ - INFO - Fetching all cars from the database
+2025-05-27 11:27:53,587 - sqlalchemy.engine.Engine - INFO - SELECT cars.id, cars.make, cars.model, cars.year, cars.color 
+FROM cars
+2025-05-27 11:27:53,587 - sqlalchemy.engine.Engine - INFO - [generated in 0.00073s] ()
+2025-05-27 11:27:53,590 - __main__ - INFO - Found 60 cars
+2025-05-27 11:27:53,592 - __main__ - DEBUG - Closing database session
+2025-05-27 11:27:53,592 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-27 11:41:55,733 - car_cli.database - DEBUG - Creating database engine
+2025-05-27 11:41:55,738 - car_cli.database - DEBUG - Database engine created successfully
+2025-05-27 11:41:55,740 - __main__ - DEBUG - Calling init_db
+2025-05-27 11:41:55,740 - car_cli.database - INFO - Starting database initialization
+2025-05-27 11:41:55,742 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-27 11:41:55,743 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("cars")
+2025-05-27 11:41:55,743 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-05-27 11:41:55,764 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-05-27 11:41:55,764 - car_cli.database - INFO - Database tables created successfully
+2025-05-27 11:41:55,764 - __main__ - DEBUG - init_db completed
+2025-05-27 11:41:55,769 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-27 11:41:55,778 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT cars.id AS cars_id, cars.make AS cars_make, cars.model AS cars_model, cars.year AS cars_year, cars.color AS cars_color 
+FROM cars) AS anon_1
+2025-05-27 11:41:55,780 - sqlalchemy.engine.Engine - INFO - [generated in 0.00187s] ()
+2025-05-27 11:41:55,781 - __main__ - INFO - Database already contains 60 cars, skipping seeding
+2025-05-27 11:41:55,781 - __main__ - INFO - Fetching all cars from the database
+2025-05-27 11:41:55,782 - sqlalchemy.engine.Engine - INFO - SELECT cars.id, cars.make, cars.model, cars.year, cars.color 
+FROM cars
+2025-05-27 11:41:55,782 - sqlalchemy.engine.Engine - INFO - [generated in 0.00023s] ()
+2025-05-27 11:41:55,783 - __main__ - INFO - Found 60 cars
+2025-05-27 11:41:55,785 - __main__ - DEBUG - Closing database session
+2025-05-27 11:41:55,785 - sqlalchemy.engine.Engine - INFO - ROLLBACK

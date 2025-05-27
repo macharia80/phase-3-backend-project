@@ -1,0 +1,18 @@
+2025-05-27 10:53:13,730 - __main__ - INFO - Adding sample cars to the database
+2025-05-27 10:53:13,732 - __main__ - INFO - Committing changes to the database
+2025-05-27 10:53:13,747 - __main__ - INFO - Database seeded successfully
+2025-05-27 10:54:06,013 - __main__ - INFO - Adding sample cars to the database
+2025-05-27 10:54:06,016 - __main__ - INFO - Committing changes to the database
+2025-05-27 10:54:06,038 - __main__ - INFO - Database seeded successfully
+2025-05-27 10:54:16,338 - __main__ - INFO - Adding sample cars to the database
+2025-05-27 10:54:16,339 - __main__ - INFO - Committing changes to the database
+2025-05-27 10:54:16,360 - __main__ - INFO - Database seeded successfully
+2025-05-27 10:54:54,253 - __main__ - INFO - Adding sample cars to the database
+2025-05-27 10:54:54,254 - __main__ - INFO - Committing changes to the database
+2025-05-27 10:54:54,274 - __main__ - INFO - Database seeded successfully
+2025-05-27 12:13:16,226 - __main__ - INFO - Starting database seeding...
+2025-05-27 12:13:16,231 - __main__ - INFO - Database already contains data - skipping seeding
+2025-05-27 12:31:33,940 - __main__ - INFO - Starting database seeding...
+2025-05-27 12:31:33,948 - __main__ - INFO - Database already contains data - skipping seeding
+2025-05-27 12:51:49,829 - __main__ - INFO - Starting database seeding...
+2025-05-27 12:51:49,833 - __main__ - INFO - Database already contains data - skipping seeding
