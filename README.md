@@ -47,7 +47,7 @@ pipenv shell
 3. Install dependencies
 pipenv install click rich sqlalchemy psycopg2-binary
 N/B IF USING POSTGRESQL , MAKE SURE ITS RUNNING AND CONFIGURED PROPERLY
-
+N/B ensure your cd all the work and cd again hence install pip install -e  if u dont it will bring errors
 🚀 How to Run
 Step 1: Seed the Database
 bash
